@@ -17,7 +17,6 @@ class App extends Component{
 
        <Conversor /*moedaA="USD" moedaB="BRL"*/ />
        
-
       </View>
     );
   }
