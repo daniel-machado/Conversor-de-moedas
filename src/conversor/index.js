@@ -51,7 +51,6 @@ class Conversor extends Component{
     }
 
     render(){
-        //const {moedaA, moedaB} = this.props
 
         let moedasItems = this.state.moedas.map( (v, index) => {
             return <Picker.Item key={index} value={index} label={v.valor} />
@@ -63,7 +62,7 @@ class Conversor extends Component{
 
                     <Text style={styles.titulo}>Conversor de Moedas</Text>
 
-                    
+
 
                     <View style={styles.container}>
                         <View style={styles.pickers}>
